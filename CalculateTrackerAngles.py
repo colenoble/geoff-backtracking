@@ -51,7 +51,7 @@ except Exception as e:
 # #region agent log
 log_debug("CalculateTrackerAngles.py:35", "Creating date range", {"start": "2025-12-10", "end": "2025-12-11"}, "B")
 # #endregion
-times = pd.date_range( start = '2025-12-10', end = '2025-12-11', freq = '5min' )
+times = pd.date_range( start = '2025-11-17, end = '2025-11-18', freq = '5min' )
 # #region agent log
 log_debug("CalculateTrackerAngles.py:37", "Date range created", {"times_count": len(times)}, "B")
 # #endregion
