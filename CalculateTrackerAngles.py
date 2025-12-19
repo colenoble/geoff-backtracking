@@ -38,7 +38,7 @@ def set_time_index( df, index_name ):
 log_debug("CalculateTrackerAngles.py:26", "Before creating TrackerSystemModelSloped instance", {"tsm_type": str(type(tsm)), "tsm_hasattr": hasattr(tsm, 'TrackerSystemModelSloped')}, "A")
 # #endregion
 try:
-    tracker_model = tsm.TrackerSystemModelSloped(40.26, -83.99, 2.38, 6.69, 52.0, 0, 'America/New_York')
+    tracker_model = tsm.TrackerSystemModelSloped(40.26, -83.99, 2.38, 6.69, 52.0, 6.3, 'America/New_York')
     # #region agent log
     log_debug("CalculateTrackerAngles.py:29", "Successfully created TrackerSystemModelSloped", {"tracker_type": str(type(tracker_model))}, "A")
     # #endregion
